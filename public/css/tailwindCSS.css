@@ -1,0 +1,89 @@
+.tailwindCSS .justify-between {
+	justify-content: space-between;
+}
+.tailwindCSS .items-center {
+	align-items: center;
+}
+.tailwindCSS .flex {
+	display: flex;
+}
+
+@media (min-width: 640px) {
+	.tailwindCSS .sm\:hidden {	display: none; }
+	.tailwindCSS .sm\:justify-between {    justify-content: space-between;  }
+	.tailwindCSS .sm\:items-center {	align-items: center;}
+	.tailwindCSS .sm\:flex {	display: flex !important;}
+
+.tailwindCSS .flex-1 {
+	flex: 1 1 0%;
+}
+
+}
+.tailwindCSS .hidden {
+	display: none;
+}
+
+.tailwindCSS .text-gray-700 {
+	--tw-text-opacity: 1;
+	color: rgba(55,65,81,var(--tw-text-opacity));
+}
+.tailwindCSS .leading-5 {
+	line-height: 1.25rem;
+}
+.tailwindCSS .text-sm {
+	font-size: .875rem;
+	line-height: 1.25rem;
+}
+.tailwindCSS .font-medium {
+	font-weight: 500;
+}
+.tailwindCSS .shadow-sm {
+	--tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+.tailwindCSS .rounded-md {
+	border-radius: .375rem;
+}
+.tailwindCSS .inline-flex {
+	display: inline-flex;
+}
+.tailwindCSS .z-0 {
+	z-index: 0;
+}
+.tailwindCSS .relative {
+	position: relative;
+}
+.tailwindCSS .shadow-sm {
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+.tailwindCSS .text-gray-500 {
+	--tw-text-opacity: 1;
+	color: rgba(107,114,128,var(--tw-text-opacity));
+}
+.tailwindCSS .ease-in-out {
+	transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+}
+.tailwindCSS .duration-150 {
+	transition-duration: 150ms;
+}
+.tailwindCSS .transition {
+	transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;
+	transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
+	transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;
+	transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+	transition-duration: 150ms;
+}
+.tailwindCSS .ring-gray-300 {
+	--tw-ring-opacity: 1;
+	--tw-ring-color: rgba(209, 213, 219, var(--tw-ring-opacity));
+}
+.tailwindCSS .text-gray-700 {
+	--tw-text-opacity: 1;
+	color: rgba(55,65,81,var(--tw-text-opacity));
+}
+
+.tailwindCSS svg { width:20px;}
+
+.tailwindCSS .classModification_D { width:100%}
+
+.tailwindCSS .classModification_M { width:100%}
